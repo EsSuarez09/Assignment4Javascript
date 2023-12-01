@@ -1,0 +1,9 @@
+.hero-container {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .check-star{
+    color: orange;
+  }

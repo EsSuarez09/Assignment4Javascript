@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoMeps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body >
+
+    
+    <div class="hero-container mt-5">
+        
+   
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6 text-white">
+                    <h1 class="display-5 fw-bold lh-1 mb-4 custom-white">My JavaScript Assignment-4 <span style="color: yellow;">Using coinGecko API </span><span> CryptoCurrency Platform </h1>
+                    <p class="lead custom-white">Cryptocurrencies are powered by blockchain technology, which is a more decentralized and secure way of recording transactions..</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-info btn-lg px-4 me-md-2" fdprocessedid="16ext">Get Started Now</button>
+                            
+                        </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container px-4 py-5" id="hanging-icons"> 
+
+<h2>Cryptocurrencies Market Table("Trending")</h2>
+
+<table class="table">
+	<thead>
+		<tr>
+      <th></th>
+      <th>#</th>   
+			<th>Coin Name</th>
+			<th>Price USD</th>
+			<th>Market Cap</th>
+      <th>Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="button-container">  
+      <td style="text-align: center;">
+        <span class="fa fa-star-o" style="font-size: 30px;"></span>
+      </td>
+      <td>1</td>
+      <td style=" "><img src="images/bitcoin.png" height="25"> Bitcoin BTC</td>
+		  <td>$<span id="bitcoin"></span></td>
+      <td><span id="bitcoin-market-cap"></span></td>
+      <td><button class="btn btn-info rounded-pill px-3" type="button">BUY</button><button class="btn btn-info rounded-pill px-3" type="button">SELL</button><button class="btn btn-info rounded-pill px-3" type="button">TRADE</button></td>
+	  </tr>
+	  <tr class="button-container">
+      <td style="text-align: center;">
+        <span class="fa fa-star-o" style="font-size: 30px;"></span>
+      </td>
+      <td>2</td>
+	    <td style=" "><img src="images/ethereum.png" height="25"> Ethereum ETH</td>
+	    <td>$<span id="ethereum"></span></td>
+      <td><span id="ethereum-market-cap"></span></td>
+      <td><button class="btn btn-info rounded-pill px-3" type="button">BUY</button><button class="btn btn-info rounded-pill px-3" type="button">SELL</button><button class="btn btn-info rounded-pill px-3" type="button">TRADE</button></td>
+	  </tr>
+	  <tr class="button-container">
+      <td style="text-align: center;">
+        <span class="fa fa-star-o" style="font-size: 30px;"></span>
+      </td>
+      <td>3</td>
+	    <td style=" "><img src="images/solana.png" height="25"> Solana SOL</td>
+	    <td>$<span id="solana"></span></td>
+      <td><span id="solana-market-cap"></span></td>
+      <td><button class="btn btn-info rounded-pill px-3" type="button">BUY</button><button class="btn btn-info rounded-pill px-3" type="button">SELL</button><button class="btn btn-info rounded-pill px-3" type="button">TRADE</button></td>
+	  </tr>    
+	  <tr class="button-container">  
+      <td style="text-align: center;">
+        <span class="fa fa-star-o" style="font-size: 30px;"></span>
+      </td>
+      <td>4</td>     
+	    <td style=" "><img src="images/dogecoin.png" height="25"> Dogecoin DOGE</td>        
+	    <td>$<span id="dogecoin"></span></td>        
+      <td><span id="dogecoin-market-cap"></span></td>
+      <td><button class="btn btn-info rounded-pill px-3" type="button">BUY</button><button class="btn btn-info rounded-pill px-3" type="button">SELL</button><button class="btn btn-info rounded-pill px-3" type="button">TRADE</button></td>      
+	  </tr>     
+    <tr class="button-container"> 
+      <td style="text-align: center;">
+        <span class="fa fa-star-o" style="font-size: 30px;"></span>
+      </td>
+      <td>5</td>       
+      <td style=" "><img src="images/tether.png" height="25"> Tether USDT</td>       
+      <td>$<span id="tether"></span></td>       
+      <td><span id="tether-market-cap"></span></td>
+      <td><button class="btn btn-info rounded-pill px-3" type="button">BUY</button><button class="btn btn-info rounded-pill px-3" type="button">SELL</button><button class="btn btn-info rounded-pill px-3" type="button">TRADE</button></td>     
+    </tr>          
+  
+  
+	</tbody>
+</table>
+
+</div> 
+
+
+<div class="container px-4 py-5" id="hanging-icons">
+  <h2 class="pb-2 border-bottom">Information about my Assignment</h2>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="images/api.png" alt="CoinGecko" height="50" width="75">
+      </div>
+      <div>
+        <h3 class="fs-2 text-body-emphasis mb-4">CoinGecko API</h3>  
+        <p>CoinGecko API is like a super tool for getting live updates on cryptocurrencies. It helps app and website creators know the current prices, market value, trading volumes, and historical data of cryptocurrencies. If you want your app or website to have the latest and most accurate crypto info, CoinGecko API is the go-to.</p>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="images/usd.jpg" alt="USD" height="50">
+      </div>
+      <div>
+        <div>
+        <h3 class="fs-2 text-body-emphasis mb-4">Price and Market Cap</h3>
+        <p>These are the results for my JavaScript code that fetches data from the CoinGecko API, which provides cryptocurrency prices. The code creates a function called fetchData() that sends a GET request to the API endpoint and retrieves the current prices of Bitcoin, Ethereum, Solana, Dogecoin, and Tether in USD. The response is parsed as JSON and the prices are displayed on a web page using HTML and JavaScript. The setInterval() function is used to refresh the data every minute, but I noticed it changes every 5-6 minutes. This code can be used as a starting point for creating a cryptocurrency price tracker on a web page.</p>
+          </div>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start ">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="images/yt.png" alt="youtube" height="50" width="70">
+      </div>
+      <div>
+        <h3 class="fs-2 text-body-emphasis mb-4">Youtube Tutorial and Github Own project</h3>
+        <p>I modified my co-op website project, https://essuarez09.github.io/MariaWebsite/, for Assignment 4 in JavaScript subject, as it relates to our topic on fetching data from web application services through APIs. Before gathering information for my co-op project, I got the idea from this YouTube link I attached: https://www.youtube.com/watch?v=nidmDGwJ-Jw. However, in this tutorial, AJAX was used, so I changed that code into plain JavaScript.</p>
+      </div>
+    </div>
+    
+  </div> 
+<hr />
+<footer>
+  <p class="text-center text-body-secondary">© 2023 MariaEstrellaSuarez</p>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
